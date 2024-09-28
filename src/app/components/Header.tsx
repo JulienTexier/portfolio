@@ -8,6 +8,7 @@ import styles from '@/app/components/Header.module.scss'
 
 import { routes, display } from '@/app/resources'
 import { person, home, about, blog, work, gallery } from '@/app/resources'
+import { ThemeToggle } from "@/app/components/ThemeToggle";
 
 type TimeDisplayProps = {
     timeZone: string;
@@ -117,11 +118,8 @@ export const Header = () => {
             <Flex
                 hide="s"
                 paddingRight="12" fillWidth
-                justifyContent="flex-end" alignItems="center"
-                textVariant="body-default-s">
-                { display.time && (
-                    <TimeDisplay timeZone={person.location}/>
-                )}
+                justifyContent="flex-end" alignItems="center">
+                <ThemeToggle />
             </Flex>
         </Flex>
     )
