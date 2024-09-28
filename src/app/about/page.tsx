@@ -249,7 +249,7 @@ export default function About() {
                                                 </Text>
                                             ))}
                                         </Flex>
-                                        {experience.images.length > 0 && (
+                                       {/*  {experience.images.length > 0 && (
                                             <Flex
                                                 fillWidth paddingTop="m" paddingLeft="40"
                                                 wrap>
@@ -269,7 +269,7 @@ export default function About() {
                                                     </Flex>
                                                 ))}
                                             </Flex>
-                                        )}
+                                        )} */}
                                     </Flex>
                                 ))}
                             </Flex>
