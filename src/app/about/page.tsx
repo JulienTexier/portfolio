@@ -106,9 +106,7 @@ export default function About() {
                         <Flex
                             gap="8"
                             alignItems="center">
-                            <Icon
-                                onBackground="accent-weak"
-                                name="globe"/>
+                            <Icon name="globe"/>
                             {person.location}
                         </Flex>
                         { person.languages.length > 0 && (
