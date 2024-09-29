@@ -3,14 +3,16 @@ import "@/once-ui/tokens/index.scss";
 
 import classNames from 'classnames';
 
-import { Flex, Background } from '@/once-ui/components'
+import { Flex, Background } from '@/once-ui/components';
 import { Footer, Header, RouteGuard } from "@/app/components";
-import { baseURL, effects, home, person, style } from '@/app/resources'
+import { baseURL, effects, home, person, style } from '@/app/resources';
 
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
 import { Source_Code_Pro } from 'next/font/google';
 
 import { Metadata } from "next";
+
+import { EasterEgg } from "./components/EasterEgg";
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://' + baseURL),
@@ -94,6 +96,7 @@ export default function RootLayout({ children } : RootLayoutProps) {
 					fillWidth
 					minHeight="16">
 				</Flex>
+				<EasterEgg/>
 				<Header/>
 				<Flex
 					zIndex={0}
