@@ -4,7 +4,7 @@ import { IconButton } from '@/once-ui/components';
 import { useState, useEffect } from 'react';
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark');
 
   // On mount, set the theme based on localStorage value
   useEffect(() => {
