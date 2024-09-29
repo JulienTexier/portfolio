@@ -1,4 +1,4 @@
-import { Flex, InlineCode } from '@/once-ui/components';
+import { Flex } from '@/once-ui/components';
 
 const person = {
   firstName: 'Julien',
@@ -57,7 +57,7 @@ const social = [
 
 const home = {
   label: 'Home',
-  title: `Work Portfolio of ${person.firstName}`,
+  title: `${person.firstName} ${person.lastName} - Work Portfolio`,
   description:
     'Explore my journey as a creator and developer! From crafting music to building mobile apps, discover the projects and experiences that define my path in tech.',
   headline: <>Full-Stack Developer</>,

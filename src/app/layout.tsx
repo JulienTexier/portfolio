@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: home.title,
     description: home.description,
     url: baseURL,
-    siteName: `Creative Showcase of ${person.firstName} - Showcasing Projects and Experience`,
+    siteName: `${person.firstName} ${person.lastName} - Showcasing Projects and Experience`,
     locale: 'en_US',
     type: 'website',
   },
