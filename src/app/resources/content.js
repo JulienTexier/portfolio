@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: 'Mobile Fullstack Developer',
+  role: 'Full-Stack Developer | Mobile Development Specialist',
   avatar: '/images/avatar.jpg',
   location: 'Europe/Helsinki', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ['English', 'French', 'Spanish'], // optional: Leave the array empty if you don't want to display languages
@@ -57,9 +57,10 @@ const social = [
 
 const home = {
   label: 'Home',
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Mobile Fullstack Developer</>,
+  title: `Work Portfolio of ${person.firstName}`,
+  description:
+    'Explore my journey as a creator and developer! From crafting music to building mobile apps, discover the projects and experiences that define my path in tech.',
+  headline: <>Full-Stack Developer</>,
   subline: (
     <>
       Oh, hey there 👋 <br />
